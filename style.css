@@ -125,12 +125,44 @@ table {
 
 /*User CSS starts here */
 
-#header-p {
-	display: inline-block;
-	font-size: 16px;
-	max-width: 250px;
+header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 30px;
 }
 
-header {
+#header-text {
+	display: flex;
+	flex-direction: column;
+	font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
 	text-align: right;
+	line-height: 1.5;
+}
+
+#header-span {
+	font-weight: 100;
+	color: #505050;
+}
+
+#header-a {
+	text-decoration: none;
+	color: #0089cd;
+}
+
+#header-button {
+	background-color: #0077c5;
+	color: white;
+	border: 1px solid #4c4c4c;
+	padding: 0 20px;
+	border-radius: 4px;
+	font-size: 1.125em;
+	margin-left: 10px;
+	height: 34px;
+	justify-content: center;
+	align-items: center;
+}
+
+#lock-icon {
 }
