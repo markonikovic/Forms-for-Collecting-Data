@@ -124,3 +124,13 @@ table {
 }
 
 /*User CSS starts here */
+
+#header-p {
+	display: inline-block;
+	font-size: 16px;
+	max-width: 250px;
+}
+
+header {
+	text-align: right;
+}
