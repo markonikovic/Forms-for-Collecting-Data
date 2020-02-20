@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <link rel="stylesheet" href="style.css">
-        
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -29,27 +29,35 @@
             <span id="header-span">Already have Intuit account?</span>
             <a id="header-a" href="somewhere.html"> I forgot my user ID or Password</a>
           </div>
-            <button id="header-button"><i id="lock-icon" class="material-icons">lock</i>Sign In</button>
+            <button class="button"><i id="lock-icon" class="material-icons">lock</i>Sign In</button>
             <i class="fas fa-cloud"></i>
         </header>
 
 
 
-        <main>
+        <main class="">
           <h1>Inuit</h1>
-          <section>Three icons here</section>
+          <section class="subtitle">
+            <span id="blue" class="circle">1</span>
+            <span>mint</span>
+            <span id="green" class="circle">2</span>
+            <span>quickbooks</span>
+            <span id="red" class="circle">3</span>
+              <span>turbotax</span>
+          </section>
           <form>
             <fieldset>
-              <h2></h2>
-              <h5></h5>
-              <label for="email">Email address</label>
-              <input type="email" id="email" required>
-              <label for="phone">Phone (Recommended)</label>
+              <h2>Create an Intuit account</h2>
+              <h5>One account for everything Intuit, including Mint.</h5>
+              <a href="somewhere.html" id="learn-more">Learn more.</a>
+              <label for="email" class="labels">Email address</label>
+              <input type="email" id="email" required >
+              <label for="phone" class="labels">Phone (Recommended)</label>
               <input type="tel" id="phone">
               <p></p>
-              <label for="password">Password</label>
+              <label for="password" class="labels">Password</label>
               <input type="password" id="password" required>
-              <button>Create Account</button>
+              <button class="button">Create Account</button>
             </fieldset>
           </form>
         </main>
