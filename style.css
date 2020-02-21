@@ -101,7 +101,7 @@ h2 {
 
 h5 {
   font-size: 14px;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, 	sans-serif;
   color: #4c4c4c;
   font-weight: 300;
   text-align: center;
@@ -193,7 +193,7 @@ input {
 }
 
 footer {
-  font-family: Helvetica Neue, Helvetica, Arial sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 20px;
   color: #505050;
