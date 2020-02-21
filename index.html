@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
 
     </head>
@@ -20,22 +20,18 @@
         <![endif]-->
 
         <script src="" async defer></script>
-
-
-
         <header>
-
           <div id="header-text">
             <span id="header-span">Already have Intuit account?</span>
             <a id="header-a" href="somewhere.html"> I forgot my user ID or Password</a>
           </div>
-            <button class="button"><i id="lock-icon" class="material-icons">lock</i>Sign In</button>
+            <button class="button"><i class="material-icons lock-icon">lock</i>Sign In</button>
             <i class="fas fa-cloud"></i>
         </header>
 
 
 
-        <main class="">
+        <main>
           <h1>Inuit</h1>
           <section class="subtitle">
             <span id="blue" class="circle">1</span>
@@ -47,17 +43,38 @@
           </section>
           <form>
             <fieldset>
+
               <h2>Create an Intuit account</h2>
               <h5>One account for everything Intuit, including Mint.</h5>
-              <a href="somewhere.html" id="learn-more">Learn more.</a>
-              <label for="email" class="labels">Email address</label>
-              <input type="email" id="email" required >
-              <label for="phone" class="labels">Phone (Recommended)</label>
-              <input type="tel" id="phone">
-              <p></p>
-              <label for="password" class="labels">Password</label>
-              <input type="password" id="password" required>
-              <button class="button">Create Account</button>
+              <a href="somewhere.html" id="learn-more">Learn more</a>
+
+
+
+              <section class="fieldset-section">
+                <label for="email">Email address</label>
+                <input type="email" id="email" required >
+              </section>
+
+              <section class="fieldset-section">
+                <label for="phone">Phone (Recommended)</label>
+                <input type="tel" id="phone">
+
+                <p>Standard call, messaging or data rates may apply.</p>
+              </section>
+              
+              <section class="fieldset-section">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+              </section>
+
+
+              <button class="button button-big"><i class="material-icons lock-icon">lock</i>Create Account</button>
+              
+              <div id="agreement-p">
+                <p>By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</p>
+              </div>
+
+
             </fieldset>
           </form>
         </main>
