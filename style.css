@@ -95,6 +95,7 @@ h2 {
 	color: #4c4c4c;
 	font-weight: 400;
 	margin: 0px 30px 18px 30px;
+	text-align: center;
 }
 
 h5 {
@@ -177,9 +178,9 @@ input {
 	margin: 0 auto;
 }
 
-#recaptcha{
+#recaptcha {
 	background-color: #eceef1;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 	text-align: center;
@@ -189,7 +190,7 @@ input {
 }
 
 footer {
-	font-family: Helvetica Neue,Helvetica,Arial sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial sans-serif;
 	text-align: center;
 	margin: 20px;
 	color: #505050;
@@ -205,6 +206,6 @@ footer a {
 	color: #505050;
 }
 
-footer a:hover{
+footer a:hover {
 	text-decoration: underline;
 }
