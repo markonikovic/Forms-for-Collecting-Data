@@ -1,5 +1,7 @@
 # Forms-for-Collecting-Data
 
+![image](https://user-images.githubusercontent.com/45266473/75915835-82eda700-5e57-11ea-8c0e-8bac46a50c29.png)
+
 The project "Forms-for-Collecting-Data" was designed to showcase the use of forms in HTML.
 For this projects we coppied the sing-up page grom the website https://www.mint.com.
 For this project we use various input fields with type attributes: passoword, tel, email.
